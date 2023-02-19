@@ -1,0 +1,56 @@
+body {
+    width: 300px;
+    height: 500px;
+    margin: 2px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 1rem 0;
+  }
+  
+  li {
+    padding: 0.25rem;
+  }
+  li:nth-child(odd) {
+    background: #80808030;
+  }
+  li:nth-child(even) {
+    background: #ffffff;
+  }
+  
+  h3,
+  p {
+    margin: 0;
+  }
+  .headings{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+  }
+  .tabs input{
+    width: 100px;
+    margin-right:2px;
+  }
+  .tabs{
+  
+    margin: 10px 0px;
+  }
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+label {
+    margin: 0.4rem 0;
+    width: 50px;
+}
+#bnts{
+  text-align: center;
+  margin-top: 20px;
+
+   
+}
+
